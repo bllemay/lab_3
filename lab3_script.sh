@@ -10,5 +10,4 @@ echo "Enter file name: "
 read file
 echo "Enter Regular Exression "
 read RegEx
-echo "File Name: $file"
 grep  $RegEx $file >>email_results.txt
